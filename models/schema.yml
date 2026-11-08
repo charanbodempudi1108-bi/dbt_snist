@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_it_a
+    columns:
+      - name: student_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_it_b
+    columns:
+      - name: student_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_it_c
+    columns:
+      - name: student_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_it_d
+    columns:
+      - name: student_id
+        data_tests:
+          - unique
+          - not_null

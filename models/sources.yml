@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: snist
+    database: snist
+    schema: IT_DEPT
+
+    tables:
+      - name: it_a
+      - name: it_b
+      - name: it_c
+      - name: it_d
